@@ -1,0 +1,35 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FAF9F6;
+  color: #212F3D;
+  
+}
+
+header, footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+main {
+  flex: 1;
+  text-align: center;
+  padding: 40px 20px;
+
+}
+
+footer {
+  position: relative;
+}
