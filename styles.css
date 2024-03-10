@@ -17,6 +17,7 @@ header, footer {
 body {
   display: flex;
   flex-direction: column;
+  font-size: 0.8m;
 }
 
 nav ul li {
@@ -43,9 +44,37 @@ a:hover {
 }
 
 footer {
-  background-image: linear-gradient(#181818, #3E3E3E);
+  background-image: linear-gradient(#181818, #282828);
   position: relative;
+  padding: 40px 0;
+  text-align: center;
 }
+
+footer p {
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  text-align: center;
+  opacity: 0.8;
+}
+
+footer a {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+footer a img {
+  width: 30px;
+  height: auto;
+  transition: all 0.3s ease;
+
+}
+
+footer a:hover img {
+  opacity: 0.7;
+}
+
 
 .interest-opener {
   color: #FAF9F6;
