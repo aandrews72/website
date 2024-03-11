@@ -1,4 +1,5 @@
 /*TODO: Standardize text alignment, going from home to interests for example, they're not even
+  TODO: Fix the github icon footer location and the interests page
 */
 
 body, html {
@@ -10,9 +11,6 @@ body, html {
   color: #FAF9F6;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 header, footer {
@@ -86,7 +84,7 @@ footer p {
 }
 
 footer .github-logo .footer-bottom{
-  position: absolute;
+  position: relative;
   bottom: 10px;
 }
 
@@ -169,17 +167,14 @@ section ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
-<<<<<<< HEAD
   width: 100%;
 }
 
-.project-area {
+/*.project-area {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-=======
->>>>>>> parent of cc6dd79 (standardize styling of projects page)
 }
 
 .projects-list ul {
@@ -191,22 +186,4 @@ section ul li {
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 5px; 
-}
-
-.writings-area {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.questions-list ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.questions-list ul li {
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-}
+}*/
