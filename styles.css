@@ -10,6 +10,9 @@ body, html {
   color: #FAF9F6;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 header, footer {
@@ -159,6 +162,7 @@ section ul li {
   background-color: #252525;
   padding: 10px;
   margin-bottom: 10px;
+  width: auto;
 }
 
 .media-area {
