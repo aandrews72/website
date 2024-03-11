@@ -10,6 +10,9 @@ body, html {
   color: #FAF9F6;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 header, footer {
@@ -166,6 +169,7 @@ section ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
+<<<<<<< HEAD
   width: 100%;
 }
 
@@ -174,6 +178,8 @@ section ul li {
   flex-direction: column;
   align-items: center;
   width: 100%;
+=======
+>>>>>>> parent of cc6dd79 (standardize styling of projects page)
 }
 
 .projects-list ul {
