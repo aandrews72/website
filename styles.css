@@ -169,23 +169,38 @@ section ul li {
   width: 100%;
 }
 
+.project-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
 .projects-list ul {
   list-style-type: none;
   padding: 0;
 }
 
 .projects-list ul li {
-  background-color: #252525;
   padding: 10px;
   margin-bottom: 10px;
-  border-radius: 5px; /* Added for consistency with interests page styling */
-  color: #FAF9F6; /* Ensure text color consistency */
+  border-radius: 5px; 
 }
 
-/* Ensure this applies to both pages for uniformity */
-.project-area {
+.writings-area {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+
+.questions-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.questions-list ul li {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
