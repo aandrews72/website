@@ -170,7 +170,7 @@ section ul li {
   width: 100%;
 }
 
-/*.project-area {
+.project-area {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -186,4 +186,11 @@ section ul li {
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 5px; 
-}*/
+}
+
+.writings-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
