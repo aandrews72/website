@@ -1,6 +1,7 @@
 /*TODO: Standardize text alignment, going from home to interests for example, they're not even
-  TODO: Fix the github icon footer location and the interests page
-*/
+        Fix the projects header spacing
+        Fix interests page header/standardize it
+*/  
 
 body, html {
   margin: 0;
@@ -114,13 +115,6 @@ footer a:hover img {
   margin: 0;
   padding: 0;
   opacity: 0.8;
-}
-
-.interest-opener {
-  max-width: 600px;
-  margin: 0 auto 20px;
-  font-size: 1.1em;
-  line-height: 1.3;
 }
 
 .interests-anchors {
