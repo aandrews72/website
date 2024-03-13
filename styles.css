@@ -117,26 +117,8 @@ footer a:hover img {
   opacity: 0.8;
 }
 
-.interests-anchors {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.interests-anchors a {
-  padding: 10px 15px;
-  margin: 0 10px;
-  background-color: #333;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.interests-anchors a:hover {
-  background-color: #555;
-}
-
 section {
-  width: 100%;
+  width: calc(50% - 20px);
   max-width: 600px;
   margin-bottom: 40px;
 }
@@ -159,9 +141,13 @@ section ul li {
 
 .media-area {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 100%;
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  align-items: flex-start; 
+  gap: 20px;
 }
 
 .project-area {
