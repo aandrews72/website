@@ -120,7 +120,6 @@ footer a:hover img {
 
 section {
   width: calc(50% - 20px);
-  max-width: 600px;
   margin-bottom: 40px;
 }
 
@@ -156,10 +155,7 @@ section ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.project-intro h2 {
-  text-align: center;
+  width: 100%;
 }
 
 .project-intro h2 {
