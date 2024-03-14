@@ -151,10 +151,26 @@ section ul li {
   gap: 20px;
 }
 
+.project-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.project-intro h2 {
+  text-align: center;
+}
+
+.project-intro h2 {
+  text-align: center;
+  margin: auto;
+  width: fit-content;
+}
+
 .project-area {
   display: flex;
   flex-direction: row;
-  align-items: center;
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-around;
