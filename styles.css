@@ -3,6 +3,7 @@
         Fix interests page header/standardize it
 */  
 
+
 body, html {
   margin: 0;
   padding: 0;
@@ -27,6 +28,12 @@ header {
   height: 40px;
   text-align: center;
   color: #E0E0E0;
+}
+
+h2 {
+  font-size: 2em; 
+  margin-top: 20px; 
+  margin-bottom: 20px;
 }
 
 nav ul {
