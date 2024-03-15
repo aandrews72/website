@@ -16,16 +16,17 @@ body, html {
 }
 
 header, footer {
+  flex: 0 1 auto;
   padding: 20px 0;
   text-align: center;
   color: #E0E0E0;
 }
 
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
+  flex: 0 1 auto;
+  height: 40px;
+  text-align: center;
+  color: #E0E0E0;
 }
 
 nav ul {
