@@ -32,8 +32,8 @@ header {
 
 h2 {
   font-size: 2em; 
-  margin-top: 20px; 
-  margin-bottom: 20px;
+  margin: 40px 0;
+  text-align: center;
 }
 
 nav ul {
